@@ -46,12 +46,12 @@
     --bs-nav-link-hover-color: white;
 }
 
-/* .btn-primary {
-    background-color: var(--temple-red) !important;
-    border-color: var(--temple-red) !important;
-} */
+/* Add this to an existing CSS file or a new one */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
-/* .btn-primary:hover {
-    background-color: var(--temple-red-dark) !important;
-    border-color: var(--temple-red-dark) !important;
-} */
+/* Apply the font to the name and headings */
+#name, h1, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
